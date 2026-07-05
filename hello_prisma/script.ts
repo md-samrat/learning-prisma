@@ -2,7 +2,7 @@ import { prisma } from "./lib/prisma";
 
 const main = async () => {
 
-  // insert new user
+  insert new user
   const user = await prisma.user.create({
     data: {
       name: "Alvaro",
